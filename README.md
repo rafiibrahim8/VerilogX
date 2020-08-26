@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/khudegobeshok/arduino-learning-kit">
+  <a href="https://github.com/rafiibrahim8/VerilogX">
     <img src="img/logo_360x360.png" alt="VerilogX logo" width="96" height="96">
   </a>
 
@@ -18,6 +18,7 @@
 ## Table of Contents
 
 * [About VerilogX](#about-verilogx)
+* [Motivation](#motivation)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -28,35 +29,66 @@
 * [Acknowledgements](#acknowledgements)
 
 
-
-<!-- ABOUT THE Kit -->
 ## About VerilogX
 
-I will add later.
+VerilogX is a Verilog simulation software that enables quick debugging of Verilog files. It uses Icarus Verilog (iverilog) and GTKWave to efficiently show output waveform.
 
-<!-- GETTING STARTED -->
+## Motivation
+
+During the final year of my University, I had to use Verilog for one of my courses. The software we use to simulate was decades old. It took minutes to configure and view the resultant waveform. Debugging was a nightmare. Changing a single word in the code then simulating it took so much time I started to get angry. 
+
+I was looking for a way to easily run my Verilog files. Thus, VerilogX was born.
+
 ## Getting Started
 
-Will be added later.
+It's easy to install and run VerilogX.
 
-<!-- Update this for Frontend -->
 ### Prerequisites
 
-Will be added later.
+- Code Editor
+
+I recommend to use [Visual Studio Code](https://code.visualstudio.com) or [Sublime Text 3](https://www.sublimetext.com/3) along with Verilog extension.
+
+#### Note For Windows User
+
+You need to have Java installed in your system.
+You can download Java (JRE) from [here](https://www.oracle.com/java/technologies/javase-jre8-downloads.html).
+
 
 ### Installation
 
-Will be added later.
+#### Linux
 
-<!-- ROADMAP -->
+- Download `VerilogX-Linux-v0.1.tar.gz` from [here](https://github.com/rafiibrahim8/VerilogX/releases/tag/v0.1).
+
+- Open terminal at the downloaded location. And enter the following commands:
+```sh
+tar -xvf VerilogX-Linux-v0.1.tar.gz
+cd VerilogX-Linux
+sudo bash VerilogX-install.sh
+```
+
+#### Windows
+
+- Download `VerilogX-Windows-v0.1.exe` from [here](https://github.com/rafiibrahim8/VerilogX/releases/tag/v0.1).
+- Double click it to install.
+
 ## Roadmap
 
-Will be added later.
+See the [open issues](https://github.com/rafiibrahim8/VerilogX/issues) for a list of problems, suggestions and solution (and known issues).
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
-Will be added later.
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 <!-- LICENSE -->
 ## License
 
@@ -72,7 +104,15 @@ Ibrahim Rafi - me@ibrahimrafi.me
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-Will be added later.
+Abdullah Al Mamun - mamunabdullah275@gmail.com - for designing the beautiful logo.
+
+Pablo Bleyer Kocik - pablo.N@SPAM.bleyer.org - for Windows binary for iverilog and gtkwave.
+
+Stephen Williams - steve@icarus.com - for Icarus Verilog (iverilog).
+
+Free Software Foundation, Inc. - [Website](https://www.fsf.org) - for GTKWave.
+
+Khude Gobeshok - [Website](https://app.khudegobeshok.com) - for their awesome README [template](https://github.com/khudegobeshok/arduino-learning-kit/blob/master/README.md).
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

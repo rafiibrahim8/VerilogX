@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=0.1
+Name=VerilogX
+Comment=Easily Simulate Verilog Files 
+Exec=java -jar /usr/local/VerilogX/verilogx.jar
+Icon=/usr/local/VerilogX/icon.ico
+Terminal=false
+Type=Application
+Categories=Education;EDA;Programming;
+Keywords=Verilog;HDL;
+
