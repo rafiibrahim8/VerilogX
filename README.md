@@ -70,8 +70,9 @@ sudo bash VerilogX-install.sh
 
 #### Windows
 
-- Download `VerilogX-Windows-v0.1.exe` from [here](https://github.com/rafiibrahim8/VerilogX/releases/tag/v0.1).
-- Double click it to install.
+- Download `VerilogX-Windows-v0.1.zip` from [here](https://github.com/rafiibrahim8/VerilogX/releases/tag/v0.1).
+- Unzip it.
+- Double click on `VerilogX-Windows-v0.1.exe` to install.
 
 ## Roadmap
 
